@@ -1,0 +1,16 @@
+
+version: 2
+
+sources:
+  - name: liora_db
+    description: "Music data from S3"
+    database: LIORA_DB
+    schema: PUBLIC
+    tables: 
+      - name: artist
+      - name: album
+      - name: track
+      - name: genre
+      - name: playlist
+      - name: playlisttrack
+      - name: mediatype
